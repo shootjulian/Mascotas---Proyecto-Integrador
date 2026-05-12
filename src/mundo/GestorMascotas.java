@@ -19,6 +19,7 @@ public class GestorMascotas {
     /**
      * Arreglo bidimensional de referencia.
      * Cada fila contiene una especie y una descripción general.
+     * /Arreglo 4x2
      */
     private String[][] categorias;
 
@@ -34,8 +35,7 @@ public class GestorMascotas {
                 {"Ave", "Animal con plumas"},
                 {"Pez", "Animal acuático"}
         };
-    }
-
+    } 
     /**
      * Registra una nueva mascota si el ID no existe previamente.
      *
